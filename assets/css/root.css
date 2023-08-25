@@ -1,0 +1,192 @@
+:root{
+    /* font-size */
+    --fs-14:14px;
+    --fs-16:16px;
+    --fs-18:18px;
+    --fs-20:20px;
+    --fs-21:21.740px;
+    --fs-25:25px;
+    --fs-30:30px;
+    --fs-50:50px;
+    --fs-70:70px;
+    /* font-weight */
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-600:600;
+    --fw-700:700:
+    /* colors */
+    --white:#fff;
+    --white:#fff;
+    --light-blue:#031227;
+    --dark-blue:#000A1A;
+    --black:#000;
+    --light-sky: #77ACC5;
+}
+/* hearder */
+.f-nav-logo{
+    font-size: var(--fs-21);
+    font-weight: var(--fw-600);
+    color: var(--white);
+}
+.f-nav-li{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-500);
+    color: var(--white);
+}
+.f-page-main{
+    font-size: var(--fs-50);
+    font-weight: var(--fw-700);
+    color: var(--white);
+}
+.f-header-semper{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--white);
+}
+.f-get-started{
+    font-size: var(--fs-25);
+    font-weight: var(--fw-500);
+    color: var(--dark-blue);
+}
+.f-get-started:hover{
+    color: var(--white);
+}
+.btn-get-started{
+    background-color: var(--white);
+}
+.btn-get-started:hover{
+    background-color: var(--light-sky);
+}
+/* 1st section */
+.bg-dark-blue{
+    background-color: var(--dark-blue);
+}
+.f-section-main{
+    font-size: var(--fs-50);
+    font-weight: var(--fw-600);
+    color: var(--white);
+}
+.f-minting{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-500);
+    color: var(--white);
+}
+.f-sql{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--white);
+}
+.btn-comming{
+    background-color: var(--white);
+}
+.btn-comming:hover{
+    background-color: var(--light-sky);
+}
+.f-comming-btn{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--dark-blue);
+}
+.f-comming-btn:hover{   
+    color: var(--white);
+}
+.info-card{
+    background-color: var(--light-blue);
+}
+.f-card-main{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-600);
+    color: var(--white);
+}
+.f-card-description{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-400);
+    color: var(--white);
+}
+.f-buddybulies{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-500);
+    color: var(--white);
+}
+/* 2nd section(roadmap) */
+.f-roadmap-main{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-600);
+    color: var(--white);
+}
+.f-roadmap-secondary{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--white);
+}
+.f-roadmap-last{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-500);
+    color: var(--white);
+}
+/* section-3 */
+.accordion-button{
+    background-color: var(--light-blue) !important;
+}
+.accordion{   
+    --bs-accordion-color: var(--dark-blue) !important;
+    --bs-accordion-bg: none !important;
+    --bs-accordion-border-width: none !important;
+}
+.accordion-button{
+    font-size: var(--fs-20) !important;
+    font-weight: var(--fw-500) !important;
+    color: var(--white) !important;
+}
+.accordion-item{
+    font-size: var(--fs-16) !important;
+    font-weight: var(--fw-500) !important;
+    color: var(--white) !important;
+}
+/* 4th section */
+.f-team-main{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-600);
+    color: var(--white);
+}
+.f-team-work{
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400);
+    color: var(--white);
+}
+/* footer */
+.f-footer-logo{
+    font-size: var(--fs-30);
+    font-weight: var(--fw-500);
+    color: var(--white); 
+}
+.f-footer-aenean{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--white); 
+}
+.f-footer-li{
+    font-size: var(--fs-14);
+    font-weight: var(--fw-400);
+    color: var(--white);  
+}
+.f-footer-li-main{
+    font-size: var(--fs-15);
+    font-weight: var(--fw-500);
+    color: var(--white);  
+}
+.f-email{
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    color: var(--white); 
+}
+
+/* media screens */
+@media (min-width:576px) {
+    .f-page-main{
+        font-size: var(--fs-70);
+        font-weight: var(--fw-700);
+        color: var(--white);
+    }
+}
